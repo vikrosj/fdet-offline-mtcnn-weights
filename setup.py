@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 AUTHOR = 'Viktoria R.'
 EMAIL = 'viktoria.rosjo@gmail.com'
-VERSION = '1.0.0'
+VERSION = '0.0.1'
 
 setup(
     name='fdet-offline-mtcnn-weights',
@@ -13,8 +13,8 @@ setup(
     author_email=EMAIL,
     maintainer=AUTHOR,
     maintainer_email=EMAIL,
-    url='https://github.com/vikrosj/fdet-offline',
-    download_url='https://github.com/vikrosj/fdet-offline/archive/1.0.0.tar.gz',
+    url='https://github.com/vikrosj/fdet-offline-mtcnn-weights',
+    download_url='https://github.com/vikrosj/fdet-offline-mtcnn-weights/archive/0.0.1.tar.gz',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
