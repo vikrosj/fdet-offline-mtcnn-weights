@@ -45,8 +45,9 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     python_requires='>=3.5',
-    install_requires=[],
-    entry_points={
-        'console_scripts': ['fdet=fdet.cli.main:main']
-    }
+    install_requires=[
+                        'future==0.18.2',
+                        'numpy==1.19.2',
+                        'torch==1.6.0'
+                    ]
 )
