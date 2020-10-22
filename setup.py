@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 AUTHOR = 'Viktoria R.'
 EMAIL = 'viktoria.rosjo@gmail.com'
-VERSION = '0.0.6'
+VERSION = '0.0.7'
 
 setup_args = dict(
     name='fdet_offline_mtcnn_weights',
@@ -14,7 +14,7 @@ setup_args = dict(
     maintainer=AUTHOR,
     maintainer_email=EMAIL,
     url='https://github.com/vikrosj/fdet-offline-mtcnn-weights',
-    download_url='https://github.com/vikrosj/fdet-offline-mtcnn-weights/archive/0.0.6.tar.gz',
+    download_url='https://github.com/vikrosj/fdet-offline-mtcnn-weights/archive/0.0.7.tar.gz',
     include_package_data=True,
     description='Weights for the models in fdet-offline.',
     long_description=open('README.md').read(),
