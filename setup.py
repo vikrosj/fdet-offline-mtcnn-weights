@@ -7,7 +7,7 @@ EMAIL = 'viktoria.rosjo@gmail.com'
 VERSION = '0.0.4'
 
 setup_args = dict(
-    name='fdet-offline-mtcnn-weights',
+    name='fdet_offline_mtcnn_weights',
     version=VERSION,
     author=AUTHOR,
     author_email=EMAIL,
