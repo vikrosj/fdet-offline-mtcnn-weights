@@ -1,1 +1,1 @@
-include weights/*
+include fdet_offline_mtcnn_weights/weights/*
