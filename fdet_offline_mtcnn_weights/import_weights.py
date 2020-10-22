@@ -15,7 +15,7 @@ def load_partial(mtcnn_type):
     else:
         print(f'mtcnn_type is not recognized: {mtcnn_type}')
 
-    url = PurePath(base_url, url_path)
+    url = str(PurePath(base_url, url_path))
 
     partial_load = partial(torch.load, url)
 
