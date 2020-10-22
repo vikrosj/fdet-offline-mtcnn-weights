@@ -19,7 +19,7 @@ def load_partial(mtcnn_type):
 
     partial_load = partial(torch.load, url)
 
-    return load_partial
+    return partial_load
 
 
     
