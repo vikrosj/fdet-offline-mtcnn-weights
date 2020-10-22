@@ -6,7 +6,7 @@ AUTHOR = 'Viktoria R.'
 EMAIL = 'viktoria.rosjo@gmail.com'
 VERSION = '0.0.4'
 
-setup(
+setup_args = dict(
     name='fdet-offline-mtcnn-weights',
     version=VERSION,
     author=AUTHOR,
@@ -22,10 +22,14 @@ setup(
     keywords='face recognition detection biometry',
     packages=find_packages(),
     zip_safe=False,
-    python_requires='>=3.5',
-    install_requires=[
+    python_requires='>=3.5'
+)
+
+install_requires=[
                         'future==0.18.2',
                         'numpy==1.19.2',
                         'torch==1.6.0'
                     ]
-)
+
+if __name__ == '__main__':
+    setup(**setup_args, install_requires=install_requires)
